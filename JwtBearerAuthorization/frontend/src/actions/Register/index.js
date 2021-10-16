@@ -24,7 +24,7 @@ const RegisterAction = (values) => (dispatch) =>
             dispatch(push("/"));
             })
             .catch(err => {
-                console.log(err.response.data.error);
+                alert(err.response.data.error);
                 dispatch({type: "LOAD_CLOSE"});
             });
 

@@ -1,0 +1,7 @@
+.dragIn  {
+    border: 3px dashed black;
+}
+
+.dragOut  {
+    border: 1px solid black;
+}
